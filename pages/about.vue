@@ -6,5 +6,5 @@ const double = computed(() => count.value * 2);
 </script>
 
 <template>
-	<div class="bg-orange-100 w-full h-screen"></div>
+	<div class="bg-orange-100 w-full h-screen"/>
 </template>
