@@ -22,8 +22,8 @@ const onButtonClick = (payload: MouseEvent) => {
 </script>
 
 <template>
-  <div class="p-4" @click="onButtonClick">
-    <div class="mb-4 max-w-sm overflow-hidden rounded shadow-lg">
+  <div class="bg-gradient-primary p-4" @click="onButtonClick">
+    <div class="bg mb-4 max-w-sm overflow-hidden rounded shadow-lg">
       <img
         class="w-full"
         src="https://tailwindcss.com/img/card-top.jpg"
