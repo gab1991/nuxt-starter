@@ -22,31 +22,25 @@ const { is } = withDefaults(defineProps<Props>(), {
 }
 
 .pseudo {
-  position: relative;
-  background-color: black;
-}
+  --lower-background: #232323;
+  background:
+    linear-gradient(black, black) padding-box,
+    var(--lower-background) border-box;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  padding: 20px;
 
-/* .pseudo::after, */
-.pseudo::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  z-index: -1;
-  inset: -4px;
-  background: conic-gradient(
-    from var(--gradient-angle),
-    #d6a19a,
-    #6857bb,
-    #d6a19a
-  );
-  animation: rotate 6s linear infinite;
-}
+  &:hover {
+    --lower-background: conic-gradient(
+      from var(--gradient-angle),
+      #6857bb,
+      #d6a19a,
+      #6857bb
+    );
+  }
 
-/* .pseudo::after { */
-/* filter: blur(20px); */
-/* } */
+  animation: rotate 5s linear infinite;
+}
 
 @keyframes rotate {
   from {

@@ -7,11 +7,7 @@ export default defineNuxtConfig({
     typeCheck: true,
     strict: true,
   },
-  eslint: {
-    config: {
-      stylistic: true,
-    },
-  },
+  eslint: {},
 
   compatibilityDate: "2024-07-14",
 });
