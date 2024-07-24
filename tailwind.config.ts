@@ -20,6 +20,9 @@ export default {
         "text-dimmed": "rgba(240, 222, 219, 0.5)",
         "secondary-30": "#0f2426",
       },
+      fontFamily: {
+        mono: ["JetBrains Mono", "monospace"],
+      },
     },
   },
 };
