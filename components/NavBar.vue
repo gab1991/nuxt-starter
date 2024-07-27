@@ -3,7 +3,6 @@ import HomeSvg from "~/assets/svg/Home.svg";
 import UsersSvg from "~/assets/svg/UsersOutline.svg";
 import MailSvg from "~/assets/svg/MailOutline.svg";
 import BellSvg from "~/assets/svg/BellOutline.svg";
-import AvatarBase from "./AvatarBase.vue";
 
 const LINKS = [
   { name: "HOME", path: "/", icon: HomeSvg },
@@ -16,7 +15,7 @@ const LINKS = [
 <template>
   <CardBase is="nav" class="flex flex-col gap-28">
     <div class="flex flex-col gap-3">
-      <AvatarBase />
+      <UAvatar size="3xl" />
       <span class="text-lg">Roberto Carlos</span>
     </div>
     <nav class="flex flex-col gap-2">

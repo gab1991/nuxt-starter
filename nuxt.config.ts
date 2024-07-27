@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/eslint", "nuxt-svgo"],
+  modules: ["@nuxt/eslint", "nuxt-svgo", "@nuxt/ui"],
   devtools: { enabled: true },
 
   typescript: {

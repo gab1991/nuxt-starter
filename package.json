@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^0.3.13",
+    "@nuxt/ui": "^2.18.2",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "nuxt": "^3.12.3",
     "nuxt-svgo": "^4.0.2",
